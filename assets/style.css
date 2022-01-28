@@ -18,7 +18,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10rem;
+    margin: 5rem;
     min-height: 80vh;
 }
 
@@ -28,18 +28,28 @@ main {
     justify-content: center;
     text-align: center;
     background-color: rgb(54, 50, 50);
-    margin: 2rem;
+    margin: 0.8rem;
     padding: 1rem;
     width: 100%;
     height: 100%;
+    min-height: 40rem;
     border-radius: 20px;
 }
 
 .card h1 {
-    font-size: 22px;
+    font-size: 32px;
 }
 
 .card img {
     width: 50%;
     border-radius: 50%;
+}
+
+.stats {
+    display: flex;
+    align-items: flex-start;
+}
+
+.stats img {
+    width: 20%;
 }
