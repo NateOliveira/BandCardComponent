@@ -11,6 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'New Rocker', cursive;
 }
 
 main {
@@ -41,8 +42,9 @@ main {
 }
 
 .card img {
-    width: 50%;
-    border-radius: 50%;
+    width: 100%;
+    border-radius: 20px;
+    
 }
 
 .stats {
